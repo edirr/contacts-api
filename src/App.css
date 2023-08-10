@@ -1,0 +1,35 @@
+.contactCard{
+  box-shadow: 3px 4px 5px 6px rgba(0, 0, 0, 0.24);
+  width: 500px;
+  border-radius: 10px;
+  margin: 21px;
+  padding: 10px;
+}
+
+.contactCard:hover{
+  border: 1px solid #88d7ff31;
+  margin: 20px;
+}
+
+.contactCard h3, .contactCard p, .contactCard input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+}
+
+.contactCard{
+  box-shadow: 3px 4px 5px 6px rgb(0 0 0 / 24%);
+  width: 500px;
+  border-radius: 10px;
+  margin: 21px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactCard button{
+  width: 100px;
+  min-width: fit-content;
+  margin: 2.5px auto;
+}
